@@ -19,12 +19,12 @@ function AddMovieForm() {
                     <form className={styles.AddMovieForm__form}>
                             <label className={styles.AddMovieForm__label} htmlFor="">Title</label> 
                             <br/>
-                            <input className={styles.AddMovieForm__inputtitle} type="text"/> 
+                            <input className={styles.AddMovieForm__input} type="text"/> 
                             <br/>
                             <br/>    
                             <label className={styles.AddMovieForm__label} htmlFor="">Year</label> 
                             <br/>
-                            <input className={styles.AddMovieForm__inputyear} type="text"/> 
+                            <input className={styles.AddMovieForm__input} type="text"/> 
                             <br />
                             <button className={styles.AddMovieForm__button}>Submit</button> 
                     </form>
